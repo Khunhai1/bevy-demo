@@ -1,0 +1,13 @@
+[alias]
+b = "build"
+c = "check"
+d = "doc"
+t = "test"
+r = "run"
+rm = "remove"
+
+# Custom aliases to build and run the project with bevy dynamically linked
+dev-build = "build --features bevy/dynamic_linking"
+db = "dev-build"
+dev-run = "run --features bevy/dynamic_linking"
+dr = "dev-run"
